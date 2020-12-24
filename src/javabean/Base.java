@@ -8,9 +8,9 @@ import java.sql.SQLException;
 
 public class Base {
 	private static String driver = "com.mysql.cj.jdbc.Driver";
-	private static String url = "jdbc:mysql://localhost:3306/library?&useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8";
+	private static String url = "jdbc:mysql://mydb:3306/library?&useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8";
 	private static String username = "root";
-	private static String password = "root";
+	private static String password = "mingyuefusu!";
 
 	/**
 	 * 获取数据库连接
