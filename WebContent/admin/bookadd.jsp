@@ -86,7 +86,7 @@
   <div class="layui-form-item layui-form-text">
     <label class="layui-form-label">书籍简介</label>
     <div class="layui-input-block">
-      <textarea class="layui-textarea layui-hide"  name="description" lay-verify="content" id="LAY_demo_editor"></textarea>
+      <textarea class="layui-textarea"  name="description" lay-verify="content" id="LAY_demo_editor"></textarea>
     </div>
   </div>
   
@@ -106,6 +106,10 @@ layui.use(['form', 'layedit', 'jquery'], function(){
 	  var form = layui.form
 	  ,layer = layui.layer
 	  ,layedit = layui.layedit;
+	  /**
+	   * 因为富文本存在xss注入，以下代码不用了，如果需要可以开启
+	   */
+	  /* 
 	  var editIndex = layedit.build('LAY_demo_editor');
 	  // 自定义验证规则
 	  form.verify({
@@ -113,7 +117,8 @@ layui.use(['form', 'layedit', 'jquery'], function(){
 		  content: function(value){
 			  return layedit.sync(editIndex);
 		  }
-	  })
+	  }) 
+	  */
 	  //监听提交
 	  form.on('submit(bookForm)', function(data){
 	    $.ajax({
