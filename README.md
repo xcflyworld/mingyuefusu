@@ -4,7 +4,7 @@
 
 使用jsp、layui、mysql完成的图书馆系统，包含用户图书借阅、图书管理员、系统管理员界面，功能齐全。
 
-开发工具为eclipse，其中mysql为5.7（mysql8也行）
+开发工具为eclipse，环境java8，tomcat9.0+，mysql为5.7（mysql8也行）
 
 **演示地址**：http://library.mingyuefusu.cn/library_manager_system
 
