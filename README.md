@@ -93,9 +93,9 @@
 
 下载压缩包，或者使用`git clone`下载（使用`git checkout maven`可以更换为分支maven，其使用maven进行依赖管理，更便于运行部署）
 
-将**library.sql文件导入mysql数据库**，并需要修改以下两个数据库连接相关属性（数据库账号密码、数据库表名）
+将**library.sql文件导入mysql数据库**，并修改以下文件的数据库连接相关属性（数据库账号密码、数据库表名）
 
-![](https://ming-edu.oss-cn-beijing.aliyuncs.com/image-20201117122227215.png)
+![](https://ming-edu.oss-cn-beijing.aliyuncs.com/1630034271536.png)
 
 # 三、项目演示
 

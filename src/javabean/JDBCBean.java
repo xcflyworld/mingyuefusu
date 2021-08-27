@@ -6,10 +6,10 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class JDBCBean {
-	private static String driver = "com.mysql.cj.jdbc.Driver";
-	private static String url = "jdbc:mysql://localhost:3306/library?&useSSL=false&serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8";
-	private static String username = "root";
-	private static String password = "root";
+	private static final String driver = DBConstants.driver;
+	private static final String url = DBConstants.url;
+	private static final String username = DBConstants.username;
+	private static final String password = DBConstants.password;
 	private Connection conn = null;
 	private Statement stmt = null;
 
